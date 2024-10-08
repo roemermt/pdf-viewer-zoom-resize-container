@@ -1,0 +1,26 @@
+.parent-container {
+    display: flex;
+    height: 100vh;  
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 500px;
+
+        p {
+            text-align: center;
+            padding: 10px;
+        }
+    }
+
+    .right-side {
+        width: 700px;
+        height: 700px;
+        border: 6px dashed black;
+        resize: both;
+        padding: 30px;
+        overflow: auto;
+    }
+}
